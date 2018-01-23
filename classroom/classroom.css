@@ -1,0 +1,281 @@
+.user{
+  margin-top: -28px;
+}
+
+.number_section .heading {
+  margin-left: -287px;
+padding-top: 189px;
+font-size: 27px;
+color: white;
+font-weight: 200;
+}
+
+.navbar-brand {
+  padding: 15px 65px;
+}
+.create_classroom_button{
+  position: relative;
+    left: 809px;
+    /* border-radius: 37px; */
+    font-size: 19px;
+    color: white;
+    top: -38px;
+    padding: 7px 22px;
+    letter-spacing: 1px;
+    font-weight: 100;
+    background: rgba(33, 211, 216, 0.72);
+}
+
+.navbar-nav>li>a {
+  color: white;
+    opacity: 1;
+    font-size: 21px;
+    font-weight: 100;
+    position: relative;
+    left: -79px;
+    top: 39px;
+}
+
+
+.navbar-nav>li>a:hover{
+  background: black;
+}
+.card_body {
+  height: 266px;
+  width: 232px;
+  background-color: rgba(245, 245, 245, 0.19);
+  border-radius: 15px;
+  float: left;
+  margin: 21px;
+  margin-top: 65px;
+  margin-bottom: 60px;
+  box-shadow: 0px 0px 5px #888888;
+  text-align: center;
+  padding-top: 42px;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.card_body img {
+  height: 40px;
+  width:40px;
+  float: left;
+  border: 5px solid rgba(0, 0, 0, 0.08);
+  margin-left: -15px;
+}
+
+.glyphicon-cog{
+  color: rgba(128, 128, 128, 0.5);
+      position: relative;
+      left: 50px;
+
+}
+
+.add_classroom{
+  font-size: 18px;
+      color: rgba(51, 51, 51, 0.49);
+      padding-top: 100px;
+
+}
+
+.add_button{
+  border-radius: 50%;
+    width: 60px;
+    color: #fff;
+    background: rgba(128, 128, 128, 0.3);
+    border: 1px solid white;
+    height: 61px;
+    font-size: 39px;
+    font-weight: 900;
+    margin-top: 5px;
+    margin-left: -14px;
+}
+
+.add_button:hover{
+  background: rgba(128, 128, 128, 0.67);
+
+}
+.sub_heading1{
+  font-weight: 200;
+    margin-top: 12px;
+    margin-left: -19px;
+
+}
+
+.card_body:hover{
+  box-shadow: 0px 0px 10px #888888;
+}
+
+
+.img_section{
+    padding-left:37px;
+    width:260px;
+    float: left;
+}
+
+.card_footer{
+  background-color: rgba(238, 238, 238, 0.74);
+  width: 233px;
+  margin-top: 35px;
+  height: 52px;
+  color: grey;
+  font-size: 20px;
+  padding-top: 5px;
+  border-bottom: 0px;
+  border-left: 0px;
+  border-radius: 1px 1px 17px 17px;
+}
+
+
+/*mobile-view*/
+@media (max-width: 414px) {
+  .navbar-brand {
+    padding: 15px 35px;
+}
+.classroom_button{
+  padding: 7px 22px;
+margin-top: -114px;
+font-weight: 200;
+font-size: 23px;
+letter-spacing: 0.5;
+color: white;
+background: rgba(33, 211, 216, 0.72);
+
+}
+
+.heading{
+  font-size: 26px;
+    margin-top: -49px;
+    color: white;
+    margin-left: 35px;
+
+}
+
+.card_body{
+  margin-bottom: -63px;
+    margin-top: 120px;
+    margin-left: 14px;
+}
+.user{
+  position: absolute;
+      font-size: 30px;
+      bottom: 77px;
+      margin-left: 12px;
+      background: rgba(35, 119, 130, 0.18);
+      padding: 12px;
+}
+.mobile-brandview-data{
+margin-left: 12px;
+
+}
+.container-fluid {
+    padding-bottom: 131px;
+}
+}
+
+
+@media (min-width:360px) {
+
+  .mobile-brandview-img{
+    margin-left: 23px;
+
+  }
+
+  .mobile-brandview-data{
+    margin-left: 38px;
+
+  }
+
+.heading{
+    margin-left: 56px;
+
+}
+
+.card_body{
+    margin-left: 34px;
+}
+.user{
+      margin-left:28px;
+}
+
+
+}
+
+
+
+
+@media (min-width:412px) {
+
+.mobile-brandview-img{
+  margin-left: 60px;
+
+}
+
+.mobile-brandview-data{
+  margin-left: 65px;
+
+}
+
+.heading{
+  font-size: 26px;
+    margin-top: -49px;
+    color: white;
+    margin-left: 78px;
+
+}
+
+.card_body{
+    margin-left: 60px;
+}
+.user{
+      margin-left:50px;
+}
+
+
+}
+
+@media (max-width:1024px) and (min-width:768px) {
+
+
+  .create_classroom_button {
+      position: absolute;
+      top: 147px;
+  }
+  .heading{
+    position: relative;
+      left: 100px;
+      top: 12px;
+  }
+
+
+
+}
+
+
+@media (min-width:768px) {
+  .user{
+
+  }
+
+  .classroom_button {
+    margin-top: -68px;
+margin-left: 233px;
+width: 205px;
+background: #21d3d8;
+color: white;
+font-size: 22px;
+  }
+  .heading{
+    position: relative;
+      left: 100px;
+      top: 12px;
+  }
+
+}
+
+
+
+
+.modal.in .modal-dialog{
+  padding: 100px;
+}
