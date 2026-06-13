@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Exam | Quiz</title>
+  <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link href="../css/main.css" rel="stylesheet" type="text/css">
+  <link href="../css/quiz-fix.css" rel="stylesheet" type="text/css">
+  <link rel="icon" type="image/x-icon" href="../images/logo.png">
+  <style>
+    body { font-family: "Lato", sans-serif; }
+    .sidenav { height: 100%; width: 0; position: fixed; z-index: 1; top: 0; left: 0; background-color: #111; overflow-x: hidden; transition: 0.5s; padding-top: 60px; }
+    .sidenav a { padding: 8px 8px 8px 32px; text-decoration: none; font-size: 25px; color: #818181; display: block; transition: 0.3s; }
+    .sidenav a:hover { color: #f1f1f1; }
+    .sidenav .closebtn { position: absolute; top: 0; right: 25px; font-size: 36px; margin-left: 50px; }
+    @media (max-width: 768px) {
+      .mobilecontent { position: static !important; left: auto !important; top: auto !important; width: 100% !important; max-width: 253px; height: auto !important; margin: 10px auto; display: block; }
+    }
+  </style>
+</head>
+<body data-exam-json="../web-data/cat.json">
+  <div class="container-fluid">
+    <div class="row width" style="background:linear-gradient(-180deg, #3E50B4 0%, #A42F73 100%);height:600px;">
+      <div class="row">
+        <nav class="navbar navbar-fixed nvabar-inverse">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNabar" onclick="openNav();">
+              <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand hidden-xs hidden-sm" href="../index.html"><img src="../images/logo.png" alt="Quiz"></a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav pull-right exam-nav"></ul>
+          </div>
+        </nav>
+      </div>
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <ul class="nav navbar-nav pull-right exam-nav"></ul>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="number_section col-md-offset-6 row-md-offset-6">
+            <a href="../index.html"><img src="../images/logo.png" alt="Quiz" class="fade-scroll img-responsive visible-xs visible-sm"></a>
+            <p class="heading" id="exam-heading"></p>
+            <p class="sub_heading" id="exam-subheading-1"></p>
+            <p class="sub_heading" id="exam-subheading-2"></p>
+            <a href="https://play.google.com/store/apps/details?id=com.Quiz.app.aptitude&hl=en">
+              <img src="../images/googlePlay.png" alt="Download on Play store" width="178" height="53">
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="phone">
+            <img src="../images/phone-face.png" alt="" style="position:relative" class="hidden-xs ipad_view">
+          </div>
+          <img id="exam-mobile-pic" src="" class="mobilecontents hidden-xs" alt="App preview">
+          <img id="exam-mobile-pic-xs" src="" class="mobilecontent visible-xs" alt="App preview">
+        </div>
+      </div>
+    </div>
+    <p class="heading text-center" id="exam-content-heading"></p>
+    <div class="col-md-12 content" id="exam-cards"></div>
+    <a href="https://play.google.com/store/apps/details?id=com.Quiz.app.aptitude&hl=en">
+      <img src="../images/googlePlay.png" alt="Download on Play store" width="178" height="53" class="play_icon visible-xs">
+    </a>
+  </div>
+  <script src="../bootstrap/js/jquery-2.0.2.min.js"></script>
+  <script src="../bootstrap/js/bootstrap.min.js"></script>
+  <script src="../js/exam-page.js"></script>
+</body>
+</html>
