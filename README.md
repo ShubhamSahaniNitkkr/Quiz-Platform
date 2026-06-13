@@ -2,7 +2,8 @@
 
 > Exam prep hub covering JEE, NEET, UPSC, CAT, GRE, aptitude and more with quiz pages.
 
-![Screenshot](./screenshot.png)
+<img width="2240" height="1165" alt="image" src="https://github.com/user-attachments/assets/29c5a08a-1ab5-4fcf-b500-0e1460e9a90b" />
+
 > Add `screenshot.png` in project root for preview.
 
 ## Purpose
