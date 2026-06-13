@@ -30,7 +30,7 @@ npm install && npm run dev
 
 ## Live Demo
 
-[https://shubhamsahaniNitkkr.github.io/old-basic-projects/projects/Quiz-Platform/](https://shubhamsahaniNitkkr.github.io/old-basic-projects/projects/Quiz-Platform/)
+[https://shubhamsahaniNitkkr.github.io/Quiz-Platform/](https://shubhamsahaniNitkkr.github.io/Quiz-Platform/)
 
 
 ## Performance & UI
